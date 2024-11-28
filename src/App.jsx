@@ -13,8 +13,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<DataFetcher />} />
-          <Route path="/project" element={<Project />} />
-          <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="/RaigadMap" element={<DataFetcher />} />
+          <Route path="/RaigadMap/project" element={<Project />} />
+          <Route path="/RaigadMap/aboutus" element={<AboutUs />} />
         </Routes>
       </Router>
       {/* <div>
