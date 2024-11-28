@@ -82,7 +82,9 @@ const MapComponent = ({ places }) => {
         <div className={styles.mapWrapper}>
             <MapContainer
                 className={styles.mapContainer}
-                center={[18.3142, 73.4084]}
+                center={[18.3142, 73.4084]} 
+                // center={[51.5072, 0.1276]} //london 
+                // center={[19.0760, 72.8777]} //mumbai
                 zoom={10}
                 scrollWheelZoom={true}
             >

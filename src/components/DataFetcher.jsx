@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { fetchSheetData } from "./utils";
 import * as XLSX from "xlsx";
 import MapComponent from "./MapComponent";
-import styles from "./styles/DataFetcher.module.css";
+import styles from "./styles/dataFetcher.module.css";
 
 const DataFetcher = () => {
   const [places, setPlaces] = useState([]);
